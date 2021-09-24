@@ -16,6 +16,17 @@ body {
     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+.overlay {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  pointer-events: none;
+  background: var(--color-background);
+  animation: fadeout forwards 2s;
+}
+
 a,
 a:visited {
   color: white;
@@ -203,4 +214,9 @@ a.icon:before {
   background: white;
   border-radius: 4px;
   margin-bottom: 1rem;
+}
+
+@keyframes fadeout {
+  20% { opacity: 1;}
+  100% { opacity: 0; }
 }
