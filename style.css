@@ -105,6 +105,14 @@ svg rect {
   display: none;
 }
 
+svg path {
+  opacity: 0.3;
+}
+
+svg path:last-child {
+  opacity: 1;
+}
+
 .one {
   background: var(--color-section-one);
 }
