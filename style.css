@@ -1,10 +1,9 @@
 :root {
   --color-background: #242943;
-  --color-section-one: #6fc3df;
-  --color-section-two: #8d82c4;
-  --color-section-three: #ec8d81;
-  --color-section-four: #e7b788;
-  --color-section-five: #87c5a4;
+  --color-section-one: #8d82c4;
+  --color-section-two: #ec8d81;
+  --color-section-three: #e7b788;
+  --color-section-four: #87c5a4;
 }
 
 body {
@@ -217,6 +216,10 @@ a.icon:before {
 }
 
 @keyframes fadeout {
-  20% { opacity: 1;}
-  100% { opacity: 0; }
+  20% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
 }
